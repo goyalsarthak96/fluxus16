@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sarthak.fluxus2k16.Fluxus2k16">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fluxus"
+    android:layout_marginBottom="200dp"
+    />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="150dp"
+        android:text="Fluxus is the annual college festival of IIT Indore.Its an exceptional confluence of exquisite cultural displays with technological innovations reverberating in an aura filled with excitement, amusement and splendor. After the overwhelming success of Fluxus 2015, IIT Indore is back with Fluxus 2016 which promises to transcend all the thresholds of science and entertainment."
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading1"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="100dp"
+        android:text="Its not just a festival , its a celebration."
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTINUE -->"
+        android:textSize="25sp"
+        android:id="@+id/continue_text"
+        android:layout_gravity="bottom|end"
+        android:textColor="@android:color/white"/>
+
+</FrameLayout>

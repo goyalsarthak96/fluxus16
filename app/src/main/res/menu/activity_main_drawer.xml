@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/event"
+            android:title="Events"/>
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/schedule"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/register"
+            android:title="Register" />
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/feed"
+            android:title="Feed" />
+        <item
+            android:id="@+id/nav_accomodation"
+            android:icon="@drawable/accomodation"
+            android:title="Accomodation"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_reach_campus"
+                android:icon="@drawable/how_to_reach"
+                android:title="Reach Campus" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_developers"
+                android:icon="@drawable/xda"
+                android:title="Developers"/>
+        </menu>
+    </item>
+
+</menu>

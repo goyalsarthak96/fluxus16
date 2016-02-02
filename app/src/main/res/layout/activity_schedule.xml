@@ -1,0 +1,131 @@
+<android.support.design.widget.CoordinatorLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/schedule_cord_lay"
+    xmlns:fab="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/event_list_layout"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:id="@+id/new_rel_lay">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:id="@+id/title_im"
+        android:scaleType="fitXY"/>
+
+
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/front"
+
+            android:layout_gravity="end|center_vertical"
+            />
+
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/back"
+
+            android:layout_gravity="start|center_vertical"
+            />
+
+
+        />
+
+
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:src="@drawable/divider"
+        android:id="@+id/divider"
+        android:layout_below="@+id/new_rel_lay"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager2"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>
+
+    <com.example.sarthak.fluxus2k16.FloatingActionMenu
+        android:id="@+id/menu_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_alignParentEnd="true"
+        app:layout_anchor="@id/divider"
+        app:layout_anchorGravity="bottom|right|end"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_openDirection="down">
+
+        <com.example.sarthak.fluxus2k16.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu"
+            fab:fab_size="mini"
+            android:id="@+id/fab1"
+            fab:fab_label="Menu item 3" />
+
+        <com.example.sarthak.fluxus2k16.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu"
+            fab:fab_size="mini"
+            android:id="@+id/fab2"
+            fab:fab_label="Menu item 2" />
+
+        <com.example.sarthak.fluxus2k16.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu"
+            fab:fab_size="mini"
+            android:id="@+id/fab3"
+            fab:fab_label="@string/lorem_ipsum" />
+
+        <com.example.sarthak.fluxus2k16.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu"
+            fab:fab_size="mini"
+            android:id="@+id/fab4"
+            fab:fab_label="Menu item 2" />
+
+    </com.example.sarthak.fluxus2k16.FloatingActionMenu>
+
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:id="@+id/schedule_toolbar"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

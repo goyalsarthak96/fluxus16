@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:scaleType="fitXY"
+            android:layout_margin="15dp"
+            android:id="@+id/contact_im"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Akarsh Jain"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/info2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="+91-8109992422"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:id="@+id/info3" />
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

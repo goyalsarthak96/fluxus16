@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/event_name"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/event_type"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/event_name"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentStart="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/event_name"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/event_timing"
+        android:textColor="@android:color/white"
+         />
+
+
+</RelativeLayout>

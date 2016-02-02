@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item
+        type="id"
+        name="star_image_tag" />
+    <item
+        type="id"
+        name="category_button_id"></item>
+
+    <item
+        type="id"
+        name="category_button_selected"></item>
+
+    <item
+        type="id"
+        name="adapter_id"></item>
+</resources>
